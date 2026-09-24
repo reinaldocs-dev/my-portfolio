@@ -11,7 +11,6 @@ node_modules
 dist
 dist-ssr
 *.local
-*.lock
 
 # Editor directories and files
 .vscode/*
@@ -23,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Material local de referência e assets não usados no portfólio publicado
+/example/*
+!/example/portrait-astronauta.png
+/src/assets/
+/public/
+/design-qa.md
