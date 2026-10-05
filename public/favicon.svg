@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Capacete de astronauta — Reinaldo Correia</title>
+  <rect width="64" height="64" rx="14" fill="#bd481e"/>
+  <path d="M32 9C20.4 9 11 18.4 11 30v10c0 4.4 3.6 8 8 8h26c4.4 0 8-3.6 8-8V30C53 18.4 43.6 9 32 9Z" fill="#fff5e9"/>
+  <rect x="17" y="20" width="30" height="22" rx="11" fill="#33221b"/>
+  <path d="M24 27c2-2 4.8-3 8-3" fill="none" stroke="#ffbb7a" stroke-width="3" stroke-linecap="round"/>
+  <rect x="12" y="31" width="5" height="10" rx="2" fill="#bd481e"/>
+  <rect x="47" y="31" width="5" height="10" rx="2" fill="#bd481e"/>
+  <rect x="22" y="48" width="20" height="7" rx="3" fill="#fff5e9"/>
+</svg>

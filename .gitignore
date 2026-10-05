@@ -27,5 +27,6 @@ dist-ssr
 /example/*
 !/example/portrait-astronauta.png
 /src/assets/
-/public/
+/public/*
+!/public/favicon.svg
 /design-qa.md
