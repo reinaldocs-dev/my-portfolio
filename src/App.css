@@ -97,6 +97,9 @@ html { scroll-behavior: smooth; }
 .project-kicker { display: block; opacity: .56; line-height: 1.5; }
 .project-card h3 { margin: 12px 0 0; font-size: clamp(32px, 3.5vw, 56px); font-weight: 600; line-height: 1; letter-spacing: -.06em; }
 .project-card-body p { margin: 0; font-size: 16px; line-height: 1.65; opacity: .76; }
+.project-description { display: grid; gap: 16px; }
+.project-impact { margin-top: 26px; padding-top: 20px; border-top: 1px solid currentColor; }
+.project-impact p { margin: 10px 0 0; font-size: 16px; line-height: 1.65; }
 .project-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 34px; }
 .project-tags span { border: 1px solid currentColor; border-radius: 100px; padding: 7px 10px; font-size: 12px; opacity: .58; }
 .section-note { margin: 20px 0 0; font-size: 12px; color: var(--color-muted); }
@@ -173,7 +176,7 @@ html { scroll-behavior: smooth; }
   .project-card { min-height: 0; padding: 22px; }
   .project-visual { min-height: 290px; }
   .project-card-body { display: block; }
-  .project-card-body p { margin-top: 18px; }
+  .project-description { margin-top: 18px; }
   .project-tags { margin-top: 25px; }
   .about-grid { display: block; margin-top: 52px; }
   .about-lead { margin-top: 38px; }
