@@ -299,9 +299,14 @@ function App() {
           </div>
           <div className="project-card-body">
             <div><span className="project-kicker">PLATAFORMA DE CRIAÇÃO & RENDERIZAÇÃO</span><h3>CR.IA</h3></div>
-            <p>Concebi e desenvolvi uma engine própria de renderização em HTML para substituir uma solução terceirizada. Com o time, evoluí o pipeline de peças em imagem e vídeo e sua arquitetura distribuída na Google Cloud, ampliando a flexibilidade para novos formatos, incluindo mídia OOH.</p>
+            <div className="project-description">
+              <p>Propus e liderei tecnicamente a substituição de uma solução terceirizada de renderização que limitava a evolução do produto e criava dependência do fornecedor.</p>
+              <p>Participei de ponta a ponta da construção da nova engine, com atuação em arquitetura, backend, renderização, cloud, frontend e integrações, utilizando TypeScript, Python, Puppeteer, FFmpeg e serviços da Google Cloud.</p>
+              <p>Hoje, a engine faz parte do fluxo central do CR.IA: toda criação ou visualização de uma peça passa por ela, atendendo as campanhas da plataforma e permitindo maior controle técnico e evolução para novos formatos, incluindo mídia OOH.</p>
+            </div>
           </div>
-          <div className="project-tags"><span>TypeScript</span><span>Python</span><span>Puppeteer</span><span>FFmpeg</span><span>GCP</span></div>
+          <div className="project-impact"><span className="project-kicker">IMPACTO</span><p>Engine utilizada em todas as campanhas e no fluxo de criação e visualização de peças do CR.IA.</p></div>
+          <div className="project-tags"><span>TypeScript</span><span>Python</span><span>Puppeteer</span><span>FFmpeg</span><span>GCP</span><span>Arquitetura</span></div>
         </article>
 
         <article className="project-card project-card-light">
@@ -312,10 +317,15 @@ function App() {
             <span className="visual-coordinate">INGESTÃO · ANÁLISE · DISTRIBUIÇÃO</span>
           </div>
           <div className="project-card-body">
-            <div><span className="project-kicker">INTELIGÊNCIA DE CONTEÚDO</span><h3>BrandSync</h3></div>
-            <p>Contribuo para a evolução da plataforma com integrações com a Meta, ingestão automática de publicações do Instagram e fluxos de postagem manual ou automatizada, conectando dados e operações de conteúdo.</p>
+            <div><span className="project-kicker">CONTEÚDO, AUTOMAÇÃO & INTEGRAÇÕES</span><h3>BrandSync</h3></div>
+            <div className="project-description">
+              <p>Atuo na evolução do BrandSync, plataforma de gestão e inteligência de conteúdo, desenvolvendo funcionalidades que conectam o produto às redes sociais e automatizam etapas do ciclo de publicação.</p>
+              <p>Entre as principais entregas, implementei fluxos de publicação e agendamento de posts, integração com a Graph API da Meta e a remoção segura de conteúdos publicados, incluindo regras de autorização por perfil e organização, soft delete e consistência das listagens da plataforma.</p>
+              <p>Também participei da evolução de recursos de análise de IA, insights de engajamento e edição de conteúdo, atuando em arquitetura, desenvolvimento, code review, deploys e investigação de problemas em produção.</p>
+            </div>
           </div>
-          <div className="project-tags"><span>React</span><span>TypeScript</span><span>APIs REST</span><span>Meta</span></div>
+          <div className="project-impact"><span className="project-kicker">IMPACTO</span><p>Automação de publicação e gestão de conteúdos integrada diretamente às redes sociais, com regras de acesso e operação em produção.</p></div>
+          <div className="project-tags"><span>React</span><span>TypeScript</span><span>REST APIs</span><span>Meta Graph API</span><span>Pub/Sub</span><span>IA</span></div>
         </article>
       </div>
       <p className="section-note">Projetos desenvolvidos em equipe na Galeria.Holding. Diagramas ilustrativos; interfaces e dados de clientes não são exibidos.</p>
