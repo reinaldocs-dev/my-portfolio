@@ -29,4 +29,5 @@ dist-ssr
 /src/assets/
 /public/*
 !/public/favicon.svg
+!/public/og-image.png
 /design-qa.md
