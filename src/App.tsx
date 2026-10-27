@@ -1,5 +1,5 @@
 import { useEffect, useRef, type PointerEvent } from 'react'
-import astronautSheet from '../example/portrait-astronauta.png'
+import astronautSheet from '../example/portrait-astronauta.webp'
 import './App.css'
 
 type TrailPoint = {
@@ -373,7 +373,7 @@ function App() {
       </div>
       <footer className="page-footer">
         <a href="#hero" className="footer-brand">Reinaldo.dev <span aria-hidden="true">↑</span></a>
-        <span>FRANCO DA ROCHA · SP · BRASIL</span>
+        <span>SÃO PAULO · SP · BRASIL</span>
         <div><a href="https://github.com/reinaldocs-dev" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/reinaldo-correia" target="_blank" rel="noreferrer">LinkedIn</a></div>
       </footer>
     </section>
