@@ -1,5 +1,5 @@
 import { useEffect, useRef, type PointerEvent } from 'react'
-import astronautSheet from '../example/portrait-astronauta.png'
+import astronautSheet from '../example/portrait-astronauta.webp'
 import './App.css'
 
 type TrailPoint = {
