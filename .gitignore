@@ -29,6 +29,8 @@ dist-ssr
 /src/assets/
 /public/*
 !/public/favicon.svg
+!/public/favicon.ico
+!/public/apple-touch-icon.png
 !/public/og-image.png
 !/public/robots.txt
 !/public/sitemap.xml
