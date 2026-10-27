@@ -30,4 +30,6 @@ dist-ssr
 /public/*
 !/public/favicon.svg
 !/public/og-image.png
+!/public/robots.txt
+!/public/sitemap.xml
 /design-qa.md
